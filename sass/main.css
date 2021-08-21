@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  max-width: 324px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container .col {
+  padding: 40px 50px;
+}
+
+.container .col img {
+  margin-bottom: 25px;
+}
+
+.container .col h1 {
+  margin-bottom: 25px;
+}
+
+.container .col p {
+  margin-bottom: 25px;
+}
+
+.container .col p, .container .col h1 {
+  color: #f2f2f2;
+}
+
+.container .col p {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container .col button {
+  border: none;
+  background: #f2f2f2;
+  border-radius: 100px;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 13px 25px;
+  font-weight: 700;
+}
+
+.container .col-1 {
+  background: #e38826;
+}
+
+.container .col-1 button {
+  color: #e38826;
+}
+
+.container .col-2 {
+  background: #006970;
+}
+
+.container .col-2 button {
+  color: #006970;
+}
+
+.container .col-3 {
+  background: #004241;
+}
+
+.container .col-3 button {
+  color: #004241;
+}
+
+@media (max-width: 280px) {
+  .container .col {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 323px) {
+  .container .col {
+    padding: 40px 30px;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    margin: 0;
+  }
+  .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 900px;
+  }
+  .container .col p {
+    margin-bottom: 90px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
