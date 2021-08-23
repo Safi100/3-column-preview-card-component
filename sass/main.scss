@@ -14,6 +14,7 @@ body{
     min-height: 100vh;
     font-family: $font-1;
     font-size: $font-size;
+    background: $Very-light-gray;
     margin-top: 15px;
 }
 .container{
@@ -27,30 +28,30 @@ body{
     
     padding: 40px 50px;
     img{margin-bottom: 25px;}
-    h1{margin-bottom: 25px;}
+    h1{margin-bottom: 25px; text-transform: uppercase;}
     p{margin-bottom: 25px;}
     p,h1{color:$Very-light-gray;}
-    p{font-family:$font-2;}
-    button{
+    p{font-family:$font-2;line-height: 1.5;}
+    .button{
         border: none;
         background:$Very-light-gray;
         border-radius: 100px;
         font-family: $font-2;
         padding: 13px 25px;
-        font-weight: 700;
+        text-decoration: none;
     }
 }
 .col-1{
     background:$Bright-orange;
-    button{color:$Bright-orange;}
+    .button{color:$Bright-orange;}
 }
 .col-2{
     background: $Dark-cyan;
-    button{color:$Dark-cyan;}
+    .button{color:$Dark-cyan;}
 }
 .col-3{
     background:$Very-dark-cyan;
-    button{color:$Very-dark-cyan;}
+    .button{color:$Very-dark-cyan;}
 }
 }
 @media (max-width:280px) {
